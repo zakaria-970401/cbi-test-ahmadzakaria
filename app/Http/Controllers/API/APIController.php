@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class LoginController extends BaseController
+class APIController extends BaseController
 {
     public function doLogin(Request $request)
     {
