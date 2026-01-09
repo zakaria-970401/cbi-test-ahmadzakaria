@@ -111,7 +111,7 @@
         function backToHome() {
             const auth = JSON.parse(localStorage.getItem('auth') || '{}');
             if (auth.token) {
-                // location.href = "{{ route('home') }}";
+                location.href = "{{ route('home') }}";
             }
         }
 
